@@ -1,0 +1,204 @@
+.filament-marketplace :is(.sr-only) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0
+}
+
+.filament-marketplace :is(.mx-auto) {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.filament-marketplace :is(.mt-2) {
+  margin-top: 0.5rem
+}
+
+.filament-marketplace :is(.mt-6) {
+  margin-top: 1.5rem
+}
+
+.filament-marketplace :is(.mt-8) {
+  margin-top: 2rem
+}
+
+.filament-marketplace :is(.flex) {
+  display: flex
+}
+
+.filament-marketplace :is(.grid) {
+  display: grid
+}
+
+.filament-marketplace :is(.contents) {
+  display: contents
+}
+
+.filament-marketplace :is(.h-5) {
+  height: 1.25rem
+}
+
+.filament-marketplace :is(.w-5) {
+  width: 1.25rem
+}
+
+.filament-marketplace :is(.w-full) {
+  width: 100%
+}
+
+.filament-marketplace :is(.max-w-2xl) {
+  max-width: 42rem
+}
+
+.filament-marketplace :is(.max-w-md) {
+  max-width: 28rem
+}
+
+.filament-marketplace :is(.max-w-xl) {
+  max-width: 36rem
+}
+
+.filament-marketplace :is(.grid-cols-1) {
+  grid-template-columns: repeat(1, minmax(0, 1fr))
+}
+
+.filament-marketplace :is(.items-start) {
+  align-items: flex-start
+}
+
+.filament-marketplace :is(.justify-between) {
+  justify-content: space-between
+}
+
+.filament-marketplace :is(.gap-x-6) {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem
+}
+
+.filament-marketplace :is(.gap-x-8) {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem
+}
+
+.filament-marketplace :is(.gap-y-8) {
+  row-gap: 2rem
+}
+
+.filament-marketplace :is(.rounded-full) {
+  border-radius: 9999px
+}
+
+.filament-marketplace :is(.rounded-xl) {
+  border-radius: 0.75rem
+}
+
+.filament-marketplace :is(.bg-gray-900) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity))
+}
+
+.filament-marketplace :is(.object-cover) {
+  -o-object-fit: cover;
+     object-fit: cover
+}
+
+.filament-marketplace :is(.p-4) {
+  padding: 1rem
+}
+
+.filament-marketplace :is(.px-2) {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem
+}
+
+.filament-marketplace :is(.py-1) {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem
+}
+
+.filament-marketplace :is(.text-lg) {
+  font-size: 1.125rem;
+  line-height: 1.75rem
+}
+
+.filament-marketplace :is(.text-sm) {
+  font-size: 0.875rem;
+  line-height: 1.25rem
+}
+
+.filament-marketplace :is(.text-3xl) {
+  font-size: 1.875rem;
+  line-height: 2.25rem
+}
+
+.filament-marketplace :is(.font-bold) {
+  font-weight: 700
+}
+
+.filament-marketplace :is(.leading-7) {
+  line-height: 1.75rem
+}
+
+.filament-marketplace :is(.leading-8) {
+  line-height: 2rem
+}
+
+.filament-marketplace :is(.tracking-tight) {
+  letter-spacing: -0.025em
+}
+
+.filament-marketplace :is(.text-gray-200) {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity))
+}
+
+.filament-marketplace :is(.text-gray-400) {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity))
+}
+
+.filament-marketplace :is(.text-gray-900) {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity))
+}
+
+.filament-marketplace :is(.text-gray-600) {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity))
+}
+
+.filament-marketplace :is(.hover\:text-gray-500:hover) {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+
+.filament-marketplace :is(.dark .dark\:text-gray-100) {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity))
+}
+
+@media (min-width: 640px) {
+  .filament-marketplace :is(.sm\:grid-cols-2) {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+}
+
+@media (min-width: 1024px) {
+  .filament-marketplace :is(.lg\:mx-0) {
+    margin-left: 0px;
+    margin-right: 0px
+  }
+
+  .filament-marketplace :is(.lg\:max-w-none) {
+    max-width: none
+  }
+
+  .filament-marketplace :is(.lg\:grid-cols-3) {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+  }
+}

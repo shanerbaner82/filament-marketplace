@@ -1,0 +1,30 @@
+{
+    "name": "shanerbaner82/filament-marketplace",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shanerbaner82\\FilamentMarketplace\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SD Rosenthal",
+            "email": "shane@laravelonline.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filament/support": "^3.0",
+        "composer/composer": "^2.6.5",
+        "calebporzio/sushi": "dev-main"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shanerbaner82\\FilamentMarketplace\\FilamentMarketplaceServiceProvider"
+            ]
+        }
+
+    }
+}
